@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+    
+}
+html,body{
+    width:100%;
+    height:100vh;
+}
+
+.main
+{
+    width:100%;
+    height:100%;
+    
+}
+#bottom
+{
+    width:100%;
+    height:100vh;
+ 
+}
+#bottom img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+#top
+{
+    pointer-events: none;
+    top:0;
+    left: 0;
+    position: absolute;
+    width:100%;
+    height:100vh;
+    
+}
+#nav
+{
+    pointer-events: all;
+    width:98%;
+    margin: auto;
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+  
+   height:100px;
+
+}
+
+#navleft a,#navright a
+{  
+    text-transform:capitalize;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding-left:50px;
+    color:aliceblue;
+    font-size: 2vw;
+    font-weight: 300;
+}
+#navleft a:nth-child(2)
+{
+    color: rgb(0, 0, 160);
+    -webkit-text-stroke: #fff 0.5px ;
+}
+#navleft a:nth-child(3)
+{
+    color: rgb(255, 119, 0);
+    -webkit-text-stroke: #fff 0.5px ;
+}
+#navleft a:nth-child(4)
+{
+   
+    -webkit-text-stroke: #000000 2px ;
+}
+#navright a:nth-child(1)
+{
+    color: rgb(68, 136, 0);
+    -webkit-text-stroke: #ffffff 0.5px ;
+}
+#navright a:nth-child(2)
+{
+    color: rgb(255, 247, 0);
+    -webkit-text-stroke: #000000 1px ;
+}
+
+#navleft img
+{
+    
+ 
+
+}
+
+#hero
+{
+    width:90%;
+ position: relative;   
+margin: auto;
+min-width: 1920px;
+height:100%;
+
+display: flex;
+justify-content: space-between;
+align-content: space-between;
+top:150px;
+left:0;
+}
+#heroleft{
+    
+    width:50%;
+    height: 100px;;
+    
+}
+button
+{
+    pointer-events: all;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: rgba(143, 152, 152, 0.51); 
+    border-radius: 20px;
+    -webkit-text-stroke: #ffffff 0.5px;
+    font-size: 2.5vw;
+    color: black;
+    font-weight: 700;
+}
+button:hover
+{
+    background-color: #000000;
+}
+#heroleft h1
+{  padding-left: 100px;
+    color:#fff;
+    font-size:7vw;
+    font-family: 'kajiro';
+    font-weight: 500;
+   
+}
+#heroleft h1:nth-child(1)
+{
+    -webkit-text-stroke: rgb(255, 149, 0) 1px;
+
+}
+#heroleft h1:nth-child(2)
+{
+    -webkit-text-stroke: blue 1px;
+
+}#heroleft h1:nth-child(3)
+{
+    -webkit-text-stroke: rgb(77, 255, 0) 1px;
+
+}
+#heroright
+{  padding-right: 20px; 
+    width:20%;
+    height:100px;
+   
+}
+#heroright p
+{
+    
+   text-align: right;
+    margin-bottom:7%;
+    color:#fff;
+    font-size: 0.8vw;
+}
+ #imgdiv
+{  margin-left: 185px;
+     bottom:200px;
+    background-color:#fff;
+    margin-bottom:7%;
+    height:90px;
+    width:80px;
+}
+#imgdiv img
+{
+    height:90px;
+    width:80px;
+   background-size: cover;
+}
+.second
+{
+    
+    position: relative;
+    height: 100%;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+
+#s1
+{
+    top:50px;
+    margin-left: 20px;
+    
+    position: relative;
+    background-color: rgb(255, 149, 0);
+    height:700px;
+    width:98%;
+    border-radius: 20px;
+    
+}
+#s1 h1
+{
+   margin-top:35px;
+   font-size: 9vw;
+   font-weight: 400;
+   font-family: 'From Cartoon Blocks';
+   text-align: center;
+    color: #ffffff;
+   -webkit-text-stroke:#000000 1px;
+   
+}
+#s1 p
+{
+    padding-left: 15px;
+    color:#fff;
+    font-size: 1.5vw;
+}
+#space
+{
+    margin-left: 85%;
+    margin-right:2%;
+    background-color: #fff;
+    border: #000000 3px;
+    border-radius: 20px;
+    border-style:outset ;
+  
+}
+#s1 #space h3
+{
+    font-family:'Courier New', Courier, monospace;
+    text-align: right;
+    color:#fff;
+    padding-right: 53px;
+    font-size: 2vw;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke: #000000 1px;
+}
+#s1 #space h4
+{
+    line-height: 1.5vw;
+    text-align: right;
+    color:#000000;
+    padding-right: 35px;
+    font-size: 1.5vw;
+    -webkit-text-stroke: #000000 1px;
+    border-style:hidden;
+}
+.third
+{
+    position: relative;
+    
+    height: 100vh;
+    background-color: #fff700;
+}
+
+
